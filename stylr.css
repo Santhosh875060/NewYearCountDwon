@@ -1,0 +1,87 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url(assets/pexels-rakicevic-nenad-233369-769525.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .box{
+        height: 50px;
+        width: 50px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+#day{
+    font-size: 30px;
+    font-weight: 200px;
+}
+#hours{
+    font-size: 30px;
+    font-weight: 200px;
+}
+#min{
+    font-size: 30px;
+    font-weight: 200px;
+}
+#sec{
+    font-size: 30px;
+    font-weight: 200px;
+}p{margin-bottom: 10px;}
+
+@media (max-width:480px) {
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+   }
+        
+}
+@media (min-width:780px) {
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+   }
+   p{
+    font-size: 40px;
+    transition:5s;
+    /* transform: scale(0.8s); */
+    transform: rotateX(360deg);
+   }
+   h3{font-size: 15px;color: green;font-weight:900;height:30px;f}
+        
+}
